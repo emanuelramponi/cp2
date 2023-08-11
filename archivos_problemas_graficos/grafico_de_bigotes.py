@@ -2,7 +2,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
 
-df = pd.read_csv("archivos_problemas_graficos\\bigotes.csv")
+df = pd.read_csv("C:/Users/161230/curso python/bigotes.csv")
 
 #creando el grafico
 sns.boxplot(x= "categoria", y = "valor", data = df)
@@ -16,4 +16,4 @@ def read_csv_in_chunks(file_name):
         print("Chunk #{}".format(i))
         print(chunk)
 
-read_csv_in_chunks("archivs_problemas_graficos\\dispersion_file.csv")
+read_csv_in_chunks("bigotes.csv")
